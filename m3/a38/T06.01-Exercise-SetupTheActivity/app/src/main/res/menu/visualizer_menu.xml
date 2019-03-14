@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    // TODO (3) In visualizer_menu.xml create a menu item with a single item. The id should be
+    // "action_settings", title should be saved in strings.xml, the item should never
+    // be shown as an action, and orderInCategory should be 100
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/app_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+</menu>
